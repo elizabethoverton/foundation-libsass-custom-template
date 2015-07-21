@@ -7,10 +7,10 @@ Customized grunt setup using foundation-libsass-template
 
 **Setup:**
 
-1. Clone or fork this project or [download latest version here](https://github.com/tanmancan/foundation-libsass-custom-template/releases/latest) and extract zip
+1. Clone or fork this project or [download the latest version here](https://github.com/elizabethoverton/foundation-libsass-custom-template/releases/latest) and extract zip
 
 	```shell
-	$ git clone git@github.com:tanmancan/foundation-libsass-custom-template.git
+	$ git clone git@github.com:elizabethoverton/foundation-libsass-custom-template.git
 	```
 	
 2. Navigate to the project directory:
@@ -33,13 +33,13 @@ Minify javascript and sass files:
 $ grunt
 ```
 	
-Check javascript for errors with jshint
+Check javascript for errors with jshint:
 
 ```shell
 $ grunt checkjs
 ```
 
-Livereload plugin:
+For the livereload plugin, either use this script or download the Chrome extension:
 	
 ```javascript
 // Add script to bottom of html page
